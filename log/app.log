@@ -1,0 +1,7 @@
+[2018-08-15 17:13:10 +0300] [11700] [ERROR] Cannot create DataBase : (psycopg2.OperationalError) FATAL:  password authentication failed for user "dimo.drangov"
+ (Background on this error at: http://sqlalche.me/e/e3q8)
+[2018-08-15 17:16:08 +0300] [10328] [DEBUG] JSONTranslator-> Process request
+[2018-08-15 17:16:08 +0300] [10328] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-15 17:16:08 +0300] [10328] [DEBUG] Found 2 scores in DB
+[2018-08-15 17:16:08 +0300] [10328] [DEBUG] JSONTranslator-> Process response
+[2018-08-15 17:16:08 +0300] [10328] [DEBUG] JSONTranslator-> body : [{"username": "DIMO4", "company": "asd", "score": 123, "id": 1}, {"username": "DIMO5", "company": "asd", "score": 123, "id": 3}]
