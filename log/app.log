@@ -5,3 +5,64 @@
 [2018-08-15 17:16:08 +0300] [10328] [DEBUG] Found 2 scores in DB
 [2018-08-15 17:16:08 +0300] [10328] [DEBUG] JSONTranslator-> Process response
 [2018-08-15 17:16:08 +0300] [10328] [DEBUG] JSONTranslator-> body : [{"username": "DIMO4", "company": "asd", "score": 123, "id": 1}, {"username": "DIMO5", "company": "asd", "score": 123, "id": 3}]
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator-> Process request
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] Found 2 scores in DB
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator-> Process response
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator-> body : [{"username": "DIMO4", "company": "asd", "score": 123, "id": 1}, {"username": "DIMO5", "company": "asd", "score": 123, "id": 3}]
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator-> Process request
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-16 13:57:02 +0300] [2960] [DEBUG] JSONTranslator-> Process response
+[2018-08-16 15:17:32 +0300] [5152] [DEBUG] JSONTranslator-> Process request
+[2018-08-16 15:17:32 +0300] [5152] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-16 15:17:32 +0300] [5152] [DEBUG] Request not successful
+[2018-08-16 15:17:32 +0300] [5152] [DEBUG] JSONTranslator-> Process response
+[2018-08-16 15:38:23 +0300] [5152] [DEBUG] JSONTranslator-> Process request
+[2018-08-16 15:38:23 +0300] [5152] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-16 15:38:23 +0300] [5152] [DEBUG] Request not successful
+[2018-08-16 15:38:23 +0300] [5152] [DEBUG] JSONTranslator-> Process response
+[2018-08-16 15:38:35 +0300] [10780] [DEBUG] JSONTranslator-> Process request
+[2018-08-16 15:38:35 +0300] [10780] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-16 15:38:35 +0300] [10780] [DEBUG] Found 2 scores in DB
+[2018-08-16 15:38:35 +0300] [10780] [DEBUG] JSONTranslator-> Process response
+[2018-08-16 15:38:35 +0300] [10780] [DEBUG] JSONTranslator-> body : [{"username": "DIMO4", "company": "asd", "score": 123, "id": 1}, {"username": "DIMO5", "company": "asd", "score": 123, "id": 3}]
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] Request not successful
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 10:28:12 +0300] [6872] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 10:28:49 +0300] [7816] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 10:28:49 +0300] [7816] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 10:28:49 +0300] [7816] [DEBUG] Found 2 scores in DB
+[2018-08-17 10:28:49 +0300] [7816] [DEBUG] Request not successful
+[2018-08-17 10:28:49 +0300] [7816] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 10:30:45 +0300] [4108] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 10:30:45 +0300] [4108] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 10:30:45 +0300] [4108] [DEBUG] Found 2 scores in DB
+[2018-08-17 10:30:45 +0300] [4108] [DEBUG] Request not successful
+[2018-08-17 10:30:45 +0300] [4108] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 13:32:38 +0300] [12352] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 13:32:38 +0300] [12352] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 13:32:38 +0300] [12352] [DEBUG] Found 2 scores in DB
+[2018-08-17 13:32:38 +0300] [12352] [DEBUG] Request not successful
+[2018-08-17 13:32:38 +0300] [12352] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] ---->Into as_dict
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] Fields : {'modified_at', 'username', 'created_at', 'score', 'company'}
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] ---->Into as_dict
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] Fields : {'modified_at', 'username', 'created_at', 'score', 'company'}
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] Found 2 scores in DB
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 13:35:36 +0300] [12416] [DEBUG] JSONTranslator-> body : [{"modified_at": "2018-08-15T13:17:06.065161", "username": "DIMO4", "created_at": "2018-08-15T13:17:06.065161", "score": "123", "company": "asd"}, {"modified_at": "2018-08-15T16:05:34.236319", "username": "DIMO5", "created_at": "2018-08-15T16:05:34.236319", "score": "123", "company": "asd"}]
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] JSONTranslator-> Process request
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] ---->Into as_dict
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] Fields : {'modified_at', 'id', 'company', 'score', 'username', 'created_at'}
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] ---->Into as_dict
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] Fields : {'modified_at', 'id', 'company', 'score', 'username', 'created_at'}
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] Found 2 scores in DB
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] JSONTranslator-> Process response
+[2018-08-17 13:40:09 +0300] [5936] [DEBUG] JSONTranslator-> body : [{"modified_at": "2018-08-15T13:17:06.065161", "id": "1", "company": "asd", "score": "123", "username": "DIMO4", "created_at": "2018-08-15T13:17:06.065161"}, {"modified_at": "2018-08-15T16:05:34.236319", "id": "3", "company": "asd", "score": "123", "username": "DIMO5", "created_at": "2018-08-15T16:05:34.236319"}]
