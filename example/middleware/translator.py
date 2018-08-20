@@ -26,4 +26,4 @@ class JSONTranslator(object):
 
         if resp.body:
             log.LOG.debug('JSONTranslator-> body : {}'.format(resp.body))
-            #resp.body = json.dumps(resp.body, ensure_ascii=False)
+            resp.body = json.dumps(resp.body, ensure_ascii=False)

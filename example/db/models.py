@@ -39,7 +39,7 @@ class Score(Base):
     company = Column(String(128))
     score = Column(Integer, default=0)
 
-    def __init__(self, username, company, score):
+    def __init__(self, username, company, score=0):
         self.username = username
         self.company = company
         self.score = score
