@@ -1,5 +1,4 @@
 from marshmallow import fields, Schema, ValidationError
-from example import log
 
 
 class ScorePostSchema(Schema):
@@ -15,4 +14,5 @@ class ScorePutSchema(Schema):
     class Meta:
         strict = True
 
-    id = fields.Integer(required=True)
+    username = fields.String(required=True)
+    score = fields.Integer(required=True)

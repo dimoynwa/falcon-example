@@ -16,9 +16,10 @@ class Application(falcon.API):
 
         # Create our resources
         scores_res = scores.ScoreResource()
-
+        single_score = scores.SingleScoreResource()
         # Build routes
         self.add_route('/scores', scores_res)
+        self.add_route('/scores/{score_id}', single_score)
 
 
 api = application = Application()

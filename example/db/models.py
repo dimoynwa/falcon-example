@@ -24,6 +24,26 @@ class BaseModel(object):
              (getattr(self, key))),
             intersection))
 
+    @classmethod
+    def find_one(cls, session, id):
+        return session.query(cls).filter(cls.get_id() == id).one()
+
+    def save(self, session):
+        with session.begin():
+            session.add(self)
+
+    @classmethod
+    def get_all(cls, session):
+        models = []
+        with session.begin():
+            query = session.query(cls)
+            models = query.all()
+        return models
+
+    @classmethod
+    def get_id(cls):
+        pass
+
     FIELDS = {
         'created_at': utils.alchemyencoder,
         'modified_at': utils.alchemyencoder,
@@ -56,18 +76,9 @@ class Score(Base):
     #         'score': self.score,
     #         'id': self.id
     #     }
-
-    def save(self, session):
-        with session.begin():
-            session.add(self)
-
     @classmethod
-    def get_all(cls, session):
-        models = []
-        with session.begin():
-            query = session.query(cls)
-            models = query.all()
-        return models
+    def get_id(cls):
+        return Score.id
 
     FIELDS = {
         'username': str,

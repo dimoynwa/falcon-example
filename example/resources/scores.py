@@ -37,3 +37,29 @@ class ScoreResource(BaseResource):
         sc.save(self.session)
         resp.body = sc
         resp.status = falcon.HTTP_OK
+
+
+class SingleScoreResource(BaseResource):
+    serializers = {
+        'post': schema.ScorePostSchema,
+        'put': schema.ScorePutSchema
+    }
+
+    def on_get(self, req: falcon.Request, resp: falcon.Response, score_id):
+        log.LOG.debug('Into Resource GET')
+        score = models.Score.find_one(self.session, score_id)
+
+        log.LOG.debug('Found score : {}'.format(score))
+
+        resp.body = score.as_dict
+
+    def on_put(self, req: falcon.Request, resp: falcon.Response, score_id):
+        log.LOG.debug('Into Resource PUT')
+
+        score = models.Score.find_one(self.session, score_id)
+        js = req.context['data']
+        score.score = js['score']
+        score.company = js['company']
+        score.username = js['username']
+
+        score.save(self.session)
