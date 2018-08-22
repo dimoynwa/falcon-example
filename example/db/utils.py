@@ -8,5 +8,7 @@ def alchemyencoder(obj):
         return obj.isoformat()
     elif isinstance(obj, decimal.Decimal):
         return float(obj)
+    elif isinstance(obj, int):
+        return int(obj) if obj else 0
     else:
         return str(obj)

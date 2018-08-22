@@ -370,3 +370,329 @@
 [2018-08-21 11:29:01 +0300] [12004] [DEBUG] JSONTranslator-> Method is POST
 [2018-08-21 11:29:01 +0300] [12004] [DEBUG] JSONTranslator-> Process response
 [2018-08-21 11:29:01 +0300] [12004] [DEBUG] JSONTranslator-> body : {"title": "422 Unprocessable Entity", "errors": {"id": ["Missing data for required field."]}}
+[2018-08-21 11:30:17 +0300] [13164] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 11:30:17 +0300] [13164] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-21 11:30:17 +0300] [13164] [DEBUG] Into Resource PUT
+[2018-08-21 11:30:17 +0300] [13164] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] Into Resource GET
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] Found score : <example.db.models.Score object at 0x0000013EE8E60F60>
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] ---->Into as_dict
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] Fields : {'score', 'created_at', 'id', 'company', 'username', 'modified_at'}
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 16:30:40 +0300] [11572] [DEBUG] JSONTranslator-> body : {'score': '20', 'created_at': '2018-08-15T13:17:06.065161', 'id': '1', 'company': 'new', 'username': 'Dimo upd', 'modified_at': '2018-08-21T11:30:17.842048'}
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] Into Resource GET
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] Found score : <example.db.models.Score object at 0x000002E23C78D048>
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] ---->Into as_dict
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] Fields : {'modified_at', 'company', 'id', 'score', 'username', 'created_at'}
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 16:32:04 +0300] [11764] [DEBUG] JSONTranslator-> body : {'modified_at': '2018-08-21T11:30:17.842048', 'company': 'new', 'id': 1, 'score': 20, 'username': 'Dimo upd', 'created_at': '2018-08-15T13:17:06.065161'}
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] Into Resource GET
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] Found score : <example.db.models.Score object at 0x000002E23C770FD0>
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] ---->Into as_dict
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] Fields : {'modified_at', 'company', 'id', 'score', 'username', 'created_at'}
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 16:32:34 +0300] [11764] [DEBUG] JSONTranslator-> body : {'modified_at': '2018-08-20T09:01:21.763950', 'company': 'asd', 'id': 5, 'score': None, 'username': 'Dimo Drangov 1', 'created_at': '2018-08-20T09:01:21.763950'}
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] Into Resource GET
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] Found score : <example.db.models.Score object at 0x0000012D33C0D048>
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] ---->Into as_dict
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] Fields : {'id', 'company', 'username', 'score', 'created_at', 'modified_at'}
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 17:23:42 +0300] [7516] [DEBUG] JSONTranslator-> body : {'id': 1, 'company': 'new', 'username': 'Dimo upd', 'score': 20, 'created_at': '2018-08-15T13:17:06.065161', 'modified_at': '2018-08-21T11:30:17.842048'}
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] Into Resource GET
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] Found score : <example.db.models.Score object at 0x0000012D33C17048>
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] ---->Into as_dict
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] Fields : {'id', 'company', 'username', 'score', 'created_at', 'modified_at'}
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 17:23:59 +0300] [7516] [DEBUG] JSONTranslator-> body : {'id': 5, 'company': 'asd', 'username': 'Dimo Drangov 1', 'score': None, 'created_at': '2018-08-20T09:01:21.763950', 'modified_at': '2018-08-20T09:01:21.763950'}
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] Into Resource GET
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] Found score : <example.db.models.Score object at 0x000001AEAD5C0F28>
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] ---->Into as_dict
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] Fields : {'created_at', 'id', 'company', 'score', 'modified_at', 'username'}
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 17:24:32 +0300] [6204] [DEBUG] JSONTranslator-> body : {'created_at': '2018-08-20T09:01:21.763950', 'id': 5, 'company': 'asd', 'score': None, 'modified_at': '2018-08-20T09:01:21.763950', 'username': 'Dimo Drangov 1'}
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] JSONTranslator-> Process request
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] Into Resource GET
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] Found score : <example.db.models.Score object at 0x00000234CB70FF98>
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] ---->Into as_dict
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] Fields : {'created_at', 'company', 'username', 'modified_at', 'score', 'id'}
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] JSONTranslator-> Process response
+[2018-08-21 17:28:39 +0300] [6564] [DEBUG] JSONTranslator-> body : {'created_at': '2018-08-20T09:01:21.763950', 'company': 'asd', 'username': 'Dimo Drangov 1', 'modified_at': '2018-08-20T09:01:21.763950', 'score': None, 'id': 5}
+[2018-08-22 10:12:09 +0300] [15000] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:12:09 +0300] [15000] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 10:12:09 +0300] [15000] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] ---->Into as_dict
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Fields : {'id', 'created_at', 'modified_at', 'company', 'score', 'username'}
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] Found 9 scores in DB
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:12:22 +0300] [15000] [DEBUG] JSONTranslator-> body : [{'id': 3, 'created_at': '2018-08-15T16:05:34.236319', 'modified_at': '2018-08-15T16:05:34.236319', 'company': 'asd', 'score': 123, 'username': 'DIMO5'}, {'id': 4, 'created_at': '2018-08-20T08:56:50.905762', 'modified_at': '2018-08-20T08:56:50.905762', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov'}, {'id': 5, 'created_at': '2018-08-20T09:01:21.763950', 'modified_at': '2018-08-20T09:01:21.763950', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov 1'}, {'id': 6, 'created_at': '2018-08-20T09:09:20.190801', 'modified_at': '2018-08-20T09:09:20.190801', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov 2'}, {'id': 7, 'created_at': '2018-08-20T09:13:54.238636', 'modified_at': '2018-08-20T09:13:54.238636', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov 3'}, {'id': 8, 'created_at': '2018-08-20T09:14:43.392421', 'modified_at': '2018-08-20T09:14:43.392421', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov 4'}, {'id': 9, 'created_at': '2018-08-20T09:15:27.813552', 'modified_at': '2018-08-20T09:15:27.813552', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov 5'}, {'id': 10, 'created_at': '2018-08-20T10:35:35.203978', 'modified_at': '2018-08-20T10:35:35.203978', 'company': 'asd', 'score': None, 'username': 'Dimo Drangov 6'}, {'id': 1, 'created_at': '2018-08-15T13:17:06.065161', 'modified_at': '2018-08-21T11:30:17.842048', 'company': 'new', 'score': 20, 'username': 'Dimo upd'}]
+[2018-08-22 10:17:54 +0300] [15000] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:17:54 +0300] [15000] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 10:17:54 +0300] [15000] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:19:30 +0300] [15000] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:19:30 +0300] [15000] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:19:30 +0300] [15000] [DEBUG] Data : {'username': 'dimo', 'password': 'password', 'email': 'asd@asd.fd'}
+[2018-08-22 10:19:30 +0300] [15000] [DEBUG] Request not successful
+[2018-08-22 10:19:30 +0300] [15000] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:21:03 +0300] [11628] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:21:03 +0300] [11628] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:21:03 +0300] [11628] [DEBUG] Data : {'username': 'dimo', 'password': 'password', 'email': 'asd@asd.fd'}
+[2018-08-22 10:21:04 +0300] [11628] [DEBUG] Request not successful
+[2018-08-22 10:21:04 +0300] [11628] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:22:05 +0300] [14552] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:22:05 +0300] [14552] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:22:05 +0300] [14552] [DEBUG] Data : {'username': 'dimo', 'password': 'password', 'email': 'asd@asd.fd'}
+[2018-08-22 10:22:05 +0300] [14552] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:22:05 +0300] [14552] [DEBUG] JSONTranslator-> body : {'user_id': 1}
+[2018-08-22 10:22:24 +0300] [14552] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:22:24 +0300] [14552] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 10:22:24 +0300] [14552] [DEBUG] ---->Into as_dict
+[2018-08-22 10:22:24 +0300] [14552] [DEBUG] Fields : {'email', 'modified_at', 'password', 'username', 'created_at', 'user_id'}
+[2018-08-22 10:22:24 +0300] [14552] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:22:24 +0300] [14552] [DEBUG] JSONTranslator-> body : [{'email': 'asd@asd.fd', 'modified_at': '2018-08-22T10:22:05.319259', 'password': '\\x24326224313224415363532f366a3368687970646f757778524346632e62417435536e5734337a3645342e75614b79486d7837675839595650416847', 'username': 'dimo', 'created_at': '2018-08-22T10:22:05.319259', 'user_id': 1}]
+[2018-08-22 10:24:07 +0300] [14552] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:24:07 +0300] [14552] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:24:07 +0300] [14552] [DEBUG] Data : {'username': 'dimo', 'password': 'password'}
+[2018-08-22 10:24:08 +0300] [14552] [DEBUG] Request not successful
+[2018-08-22 10:24:08 +0300] [14552] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] Going to find serializer
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] serializer FOUND
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] Data : {'username': 'dimo', 'password': 'password'}
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] Request not successful
+[2018-08-22 10:34:39 +0300] [11212] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:36:21 +0300] [14636] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:36:21 +0300] [14636] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:36:21 +0300] [14636] [DEBUG] Going to find serializer
+[2018-08-22 10:36:21 +0300] [14636] [DEBUG] serializer FOUND
+[2018-08-22 10:36:21 +0300] [14636] [DEBUG] Data : {'username': 'dimo', 'password': 'password'}
+[2018-08-22 10:36:22 +0300] [14636] [DEBUG] Request not successful
+[2018-08-22 10:36:22 +0300] [14636] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:37:13 +0300] [4752] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:37:13 +0300] [4752] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:37:13 +0300] [4752] [DEBUG] Going to find serializer
+[2018-08-22 10:37:13 +0300] [4752] [DEBUG] serializer FOUND
+[2018-08-22 10:37:13 +0300] [4752] [DEBUG] Data : {'username': 'dimo', 'password': 'password'}
+[2018-08-22 10:37:14 +0300] [4752] [DEBUG] Request not successful
+[2018-08-22 10:37:14 +0300] [4752] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] Going to find serializer
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] serializer FOUND
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] Into Resource PUT
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] Request not successful
+[2018-08-22 10:39:07 +0300] [4752] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] Going to find serializer
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] serializer FOUND
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] Going to validate body : {'username': 'Dimo upd', 'score': 20}
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] Into Resource PUT
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] Request not successful
+[2018-08-22 10:40:42 +0300] [15144] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] Going to find serializer
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] serializer FOUND
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] Going to validate body : {'username': 'Dimo Drangov 6', 'score': 0}
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:51:00 +0300] [15144] [DEBUG] JSONTranslator-> body : {"title": "422 Unprocessable Entity", "errors": {"company": ["Missing data for required field."]}}
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] Going to find serializer
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] serializer FOUND
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] Going to validate body : {'username': 'Dimo upd', 'company': 'new'}
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] Request not successful
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:54:22 +0300] [15144] [DEBUG] JSONTranslator-> body : {"title": "422 Unprocessable Entity", "errors": {"score": ["Missing data for required field."]}}
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] Going to find serializer
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] serializer FOUND
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] Going to validate body : {'username': 'dimo', 'password': 'password'}
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 10:54:55 +0300] [828] [DEBUG] JSONTranslator-> body : {"title": "422 Unprocessable Entity", "errors": {"email": ["Missing data for required field."]}}
+[2018-08-22 10:55:37 +0300] [828] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 10:55:37 +0300] [828] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] Going to find serializer
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] Cannot find serializer
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] ---->Into as_dict
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] Fields : {'created_at', 'username', 'password', 'email', 'user_id', 'modified_at'}
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] Request not successful
+[2018-08-22 11:09:43 +0300] [13852] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] Going to find serializer
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] Cannot find serializer
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] ---->Into as_dict
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] Fields : {'password', 'username', 'user_id', 'email', 'created_at', 'modified_at'}
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 11:10:13 +0300] [14220] [DEBUG] JSONTranslator-> body : [{'username': 'dimo', 'user_id': 1, 'email': 'asd@asd.fd', 'created_at': '2018-08-22T10:22:05.319259', 'modified_at': '2018-08-22T10:22:05.319259'}]
+[2018-08-22 11:46:21 +0300] [208] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 11:46:21 +0300] [208] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 11:46:21 +0300] [208] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 11:46:21 +0300] [208] [DEBUG] JSONTranslator-> body : {"title": "Authentication Required", "description": "Please provide a valid auth token."}
+[2018-08-22 13:02:18 +0300] [11284] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:02:18 +0300] [11284] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:02:18 +0300] [11284] [DEBUG] Going to find serializer
+[2018-08-22 13:02:18 +0300] [11284] [DEBUG] Cannot find serializer
+[2018-08-22 13:02:18 +0300] [11284] [DEBUG] Request not successful
+[2018-08-22 13:02:18 +0300] [11284] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:03:24 +0300] [10848] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:03:24 +0300] [10848] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:03:24 +0300] [10848] [DEBUG] Going to find serializer
+[2018-08-22 13:03:24 +0300] [10848] [DEBUG] Cannot find serializer
+[2018-08-22 13:03:24 +0300] [10848] [DEBUG] Request not successful
+[2018-08-22 13:03:24 +0300] [10848] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:04:33 +0300] [6948] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:04:33 +0300] [6948] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:04:33 +0300] [6948] [DEBUG] Going to find serializer
+[2018-08-22 13:04:33 +0300] [6948] [DEBUG] Cannot find serializer
+[2018-08-22 13:04:33 +0300] [6948] [DEBUG] Request not successful
+[2018-08-22 13:04:33 +0300] [6948] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:06:13 +0300] [6948] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:06:13 +0300] [6948] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:06:13 +0300] [6948] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:06:13 +0300] [6948] [DEBUG] JSONTranslator-> body : {"title": "Authentication Required", "description": "Please provide a valid auth token."}
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] Going to find serializer
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] serializer FOUND
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] Going to validate body : {'username': 'dimo1', 'password': 'password', 'email': 'dimo1@asd.cd'}
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] Data : {'username': 'dimo1', 'password': 'password', 'email': 'dimo1@asd.cd'}
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:06:52 +0300] [14704] [DEBUG] JSONTranslator-> body : {'user_id': 2}
+[2018-08-22 13:07:04 +0300] [14704] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:07:04 +0300] [14704] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:07:04 +0300] [14704] [DEBUG] Going to find serializer
+[2018-08-22 13:07:04 +0300] [14704] [DEBUG] Cannot find serializer
+[2018-08-22 13:07:04 +0300] [14704] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:07:04 +0300] [14704] [DEBUG] JSONTranslator-> body : {'token': b'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.Hh1ezPS4EHKOWYCMIzvHpegomYlcmQ0gRRgBQKxLN7c'}
+[2018-08-22 13:13:33 +0300] [13528] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:13:33 +0300] [13528] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:13:33 +0300] [13528] [DEBUG] Going to find serializer
+[2018-08-22 13:13:33 +0300] [13528] [DEBUG] Cannot find serializer
+[2018-08-22 13:13:34 +0300] [13528] [DEBUG] Request not successful
+[2018-08-22 13:13:34 +0300] [13528] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:18:25 +0300] [11600] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:18:25 +0300] [11600] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:18:25 +0300] [11600] [DEBUG] Going to find serializer
+[2018-08-22 13:18:25 +0300] [11600] [DEBUG] Cannot find serializer
+[2018-08-22 13:18:26 +0300] [11600] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:18:26 +0300] [11600] [DEBUG] JSONTranslator-> body : {'token': b'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.Hh1ezPS4EHKOWYCMIzvHpegomYlcmQ0gRRgBQKxLN7c'}
+[2018-08-22 13:20:19 +0300] [10808] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:20:19 +0300] [10808] [DEBUG] JSONTranslator-> Method is POST
+[2018-08-22 13:20:19 +0300] [10808] [DEBUG] Going to find serializer
+[2018-08-22 13:20:19 +0300] [10808] [DEBUG] Cannot find serializer
+[2018-08-22 13:20:20 +0300] [10808] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:20:20 +0300] [10808] [DEBUG] JSONTranslator-> body : {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.Hh1ezPS4EHKOWYCMIzvHpegomYlcmQ0gRRgBQKxLN7c'}
+[2018-08-22 13:26:14 +0300] [14608] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:26:14 +0300] [14608] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 13:26:14 +0300] [14608] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:26:14 +0300] [14608] [DEBUG] JSONTranslator-> body : {"title": "Authentication Required", "description": "Please provide a valid auth token."}
+[2018-08-22 13:26:48 +0300] [14608] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:26:48 +0300] [14608] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 13:26:48 +0300] [14608] [DEBUG] Going to find serializer
+[2018-08-22 13:26:48 +0300] [14608] [DEBUG] Cannot find serializer
+[2018-08-22 13:26:48 +0300] [14608] [DEBUG] Request not successful
+[2018-08-22 13:26:48 +0300] [14608] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:34:55 +0300] [2208] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:34:55 +0300] [2208] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 13:34:55 +0300] [2208] [DEBUG] Going to find serializer
+[2018-08-22 13:34:55 +0300] [2208] [DEBUG] Cannot find serializer
+[2018-08-22 13:34:55 +0300] [2208] [DEBUG] Request not successful
+[2018-08-22 13:34:55 +0300] [2208] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:51:46 +0300] [1396] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:51:46 +0300] [1396] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 13:51:46 +0300] [1396] [DEBUG] Going to find serializer
+[2018-08-22 13:51:46 +0300] [1396] [DEBUG] Cannot find serializer
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] Found 9 scores in DB
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:51:47 +0300] [1396] [DEBUG] JSONTranslator-> body : [{'company': 'asd', 'created_at': '2018-08-15T16:05:34.236319', 'id': 3, 'username': 'DIMO5', 'score': 123, 'modified_at': '2018-08-15T16:05:34.236319'}, {'company': 'asd', 'created_at': '2018-08-20T08:56:50.905762', 'id': 4, 'username': 'Dimo Drangov', 'score': None, 'modified_at': '2018-08-20T08:56:50.905762'}, {'company': 'asd', 'created_at': '2018-08-20T09:01:21.763950', 'id': 5, 'username': 'Dimo Drangov 1', 'score': None, 'modified_at': '2018-08-20T09:01:21.763950'}, {'company': 'asd', 'created_at': '2018-08-20T09:09:20.190801', 'id': 6, 'username': 'Dimo Drangov 2', 'score': None, 'modified_at': '2018-08-20T09:09:20.190801'}, {'company': 'asd', 'created_at': '2018-08-20T09:13:54.238636', 'id': 7, 'username': 'Dimo Drangov 3', 'score': None, 'modified_at': '2018-08-20T09:13:54.238636'}, {'company': 'asd', 'created_at': '2018-08-20T09:14:43.392421', 'id': 8, 'username': 'Dimo Drangov 4', 'score': None, 'modified_at': '2018-08-20T09:14:43.392421'}, {'company': 'asd', 'created_at': '2018-08-20T09:15:27.813552', 'id': 9, 'username': 'Dimo Drangov 5', 'score': None, 'modified_at': '2018-08-20T09:15:27.813552'}, {'company': 'asd', 'created_at': '2018-08-20T10:35:35.203978', 'id': 10, 'username': 'Dimo Drangov 6', 'score': None, 'modified_at': '2018-08-20T10:35:35.203978'}, {'company': 'new', 'created_at': '2018-08-15T13:17:06.065161', 'id': 1, 'username': 'Dimo upd', 'score': 20, 'modified_at': '2018-08-21T11:30:17.842048'}]
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] Going to find serializer
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] Cannot find serializer
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] Into Resource GET
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] Found score : <example.db.models.Score object at 0x0000019387259860>
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] ---->Into as_dict
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] Fields : {'company', 'created_at', 'id', 'username', 'score', 'modified_at'}
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:52:12 +0300] [1396] [DEBUG] JSONTranslator-> body : {'company': 'asd', 'created_at': '2018-08-20T09:14:43.392421', 'id': 8, 'username': 'Dimo Drangov 4', 'score': None, 'modified_at': '2018-08-20T09:14:43.392421'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] JSONTranslator-> Process request
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] JSONTranslator->  Method is GET
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Going to find serializer
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Cannot find serializer
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Param : jwt_claims : {'user_id': 2}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] ---->Into as_dict
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Fields : {'score', 'username', 'company', 'id', 'created_at', 'modified_at'}
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] Found 9 scores in DB
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] JSONTranslator-> Process response
+[2018-08-22 13:56:11 +0300] [15140] [DEBUG] JSONTranslator-> body : [{'score': 123, 'username': 'DIMO5', 'company': 'asd', 'id': 3, 'created_at': '2018-08-15T16:05:34.236319', 'modified_at': '2018-08-15T16:05:34.236319'}, {'score': None, 'username': 'Dimo Drangov', 'company': 'asd', 'id': 4, 'created_at': '2018-08-20T08:56:50.905762', 'modified_at': '2018-08-20T08:56:50.905762'}, {'score': None, 'username': 'Dimo Drangov 1', 'company': 'asd', 'id': 5, 'created_at': '2018-08-20T09:01:21.763950', 'modified_at': '2018-08-20T09:01:21.763950'}, {'score': None, 'username': 'Dimo Drangov 2', 'company': 'asd', 'id': 6, 'created_at': '2018-08-20T09:09:20.190801', 'modified_at': '2018-08-20T09:09:20.190801'}, {'score': None, 'username': 'Dimo Drangov 3', 'company': 'asd', 'id': 7, 'created_at': '2018-08-20T09:13:54.238636', 'modified_at': '2018-08-20T09:13:54.238636'}, {'score': None, 'username': 'Dimo Drangov 4', 'company': 'asd', 'id': 8, 'created_at': '2018-08-20T09:14:43.392421', 'modified_at': '2018-08-20T09:14:43.392421'}, {'score': None, 'username': 'Dimo Drangov 5', 'company': 'asd', 'id': 9, 'created_at': '2018-08-20T09:15:27.813552', 'modified_at': '2018-08-20T09:15:27.813552'}, {'score': None, 'username': 'Dimo Drangov 6', 'company': 'asd', 'id': 10, 'created_at': '2018-08-20T10:35:35.203978', 'modified_at': '2018-08-20T10:35:35.203978'}, {'score': 20, 'username': 'Dimo upd', 'company': 'new', 'id': 1, 'created_at': '2018-08-15T13:17:06.065161', 'modified_at': '2018-08-21T11:30:17.842048'}]

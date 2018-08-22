@@ -12,7 +12,9 @@ class ScoreResource(BaseResource):
         'put': schema.ScorePutSchema
     }
 
-    def on_get(self, _: falcon.Request, resp: falcon.Response):
+    def on_get(self, _: falcon.Request, resp: falcon.Response, **params):
+        for the_key, the_value in params.items():
+            log.LOG.debug('Param : {} : {}'.format(the_key, the_value))
         model_list = models.Score.get_all(self.session)
         scores = [model.as_dict for model in model_list]
 
@@ -20,7 +22,7 @@ class ScoreResource(BaseResource):
 
         resp.body = scores
 
-    def on_post(self, req: falcon.Request, resp: falcon.Response):
+    def on_post(self, req: falcon.Request, resp: falcon.Response, **params):
         js = req.context['data']
         log.LOG.debug('Data : {}'.format(js))
         sc = models.Score(js['username'], js['company'], js['score'])
@@ -31,7 +33,7 @@ class ScoreResource(BaseResource):
         }
         resp.status = falcon.HTTP_CREATED
 
-    def on_put(self, req: falcon.Request, resp: falcon.Response):
+    def on_put(self, req: falcon.Request, resp: falcon.Response, **params):
         js = req.context['data']
         sc = models.Score(username=js['username'], id=js['id'], company=js['company'], score=js['score'])
         sc.save(self.session)
@@ -45,7 +47,7 @@ class SingleScoreResource(BaseResource):
         'put': schema.ScorePutSchema
     }
 
-    def on_get(self, req: falcon.Request, resp: falcon.Response, score_id):
+    def on_get(self, req: falcon.Request, resp: falcon.Response, score_id, **params):
         log.LOG.debug('Into Resource GET')
         score = models.Score.find_one(self.session, score_id)
 
@@ -53,7 +55,7 @@ class SingleScoreResource(BaseResource):
 
         resp.body = score.as_dict
 
-    def on_put(self, req: falcon.Request, resp: falcon.Response, score_id):
+    def on_put(self, req: falcon.Request, resp: falcon.Response, score_id, **params):
         log.LOG.debug('Into Resource PUT')
 
         score = models.Score.find_one(self.session, score_id)

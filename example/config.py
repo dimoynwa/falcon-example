@@ -1,6 +1,8 @@
 import os
 import configparser
 
+SECRET_KEY = 'R6PRTMZ2VYDOPBZZEK4ZDEWNCRUO6LH7'
+
 APP_ENV = os.environ.get('APP_ENV') or 'local'  # or 'live' to load live
 INI_FILE = os.path.join(
     os.path.dirname(os.path.realpath(__file__)),

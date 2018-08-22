@@ -87,3 +87,28 @@ class Score(Base):
     }
 
     FIELDS.update(Base.FIELDS)
+
+
+class User(Base):
+    user_id = Column(Integer, primary_key=True)
+    username = Column(String(20), nullable=False, unique=True)
+    email = Column(String(320), unique=True, nullable=False)
+    password = Column(String(255), nullable=False)
+
+    @classmethod
+    def get_id(cls):
+        return User.user_id
+
+    @classmethod
+    def find_by_email(cls, session, email):
+        return session.query(User).filter(User.email == email).one()
+
+    @classmethod
+    def find_by_username(cls, session, username):
+        return session.query(User).filter(User.username == username).one()
+
+    @property
+    def as_dict(self):
+        d = super(User, self).as_dict
+        del d['password']
+        return d
